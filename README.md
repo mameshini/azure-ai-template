@@ -1,8 +1,8 @@
 # Python Agent: AI Platform template for AI Agents on Azure
 
-This template is a starting point for building AI agents with web, voice, and REST API interfaces.  It provides LLM grounding using RAG with [Azure AI Search](https://learn.microsoft.com/azure/search/search-what-is-azure-search) and [Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/overview) gpt-4o.  In addition, it implements tool calling that allow AI agents to access corporate data and external APIs.  It provides a reference implementation of Web and API interfaces, using React for the frontend and Python Quart/Flask for the backend.
+This template is a starting point for building AI agents with web, voice, and REST API interfaces.  It provides LLM grounding using RAG with [Azure AI Search](https://learn.microsoft.com/azure/search/search-what-is-azure-search) and [Azure OpenAI Service](https://learn.microsoft.com/azure/cognitive-services/openai/overview) gpt-4o.  In addition, it implements tool calling providing AI agents with capabilities to access corporate data and external APIs.  It provides a reference implementation of Web and API interfaces, using React for the frontend and Python Quart/Flask for the backend.
 
-Custom Python Agent template provides boilerplate application code, infrastructure-as-code, CI/CD pipeline, observability, and AI evals to jump start development of AI apps on Azure.  As one of supported templates, it offers rapid development and deployment of AI applications in enterpise environment by providing pre-configured environments, best practices, and integrated tools for infrastructure. These templates significantly reduce setup time, ensure consistency across projects, and enable developers to focus on building AI solutions rather than spending time on boilerplate setup and configuration.
+Custom Python Agent template provides boilerplate application code, infrastructure-as-code, CI/CD pipeline, observability, and AI evals to jump start development of AI apps on Azure.  It offers rapid development and deployment of AI applications in enterpise environment by providing pre-configured environments, best practices, and integrated tools for infrastructure. These templates significantly reduce setup time, ensure consistency across projects, and enable developers to focus on building AI solutions rather than spending time on boilerplate setup and configuration.
 
 The project will create the following resources using Terraform on Azure:
 
@@ -39,7 +39,6 @@ While this template is customized for custom requirements, the original source c
   - [Troubleshooting](#troubleshooting)
   - [Resources](#resources)
 
-![Chat screen](docs/images/chatscreen.png)
 
 [📺 Watch a video overview of the app.](https://youtu.be/3acB0OWmLvM)
 
